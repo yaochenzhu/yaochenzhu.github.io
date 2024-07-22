@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="webthemez">
+    <title>SIGKDD 2024 Tutorial - Causal Inference with Latent Variable: Recent Advances and Future Prospectives</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">      
+    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
+</head> 
+
+<body id="home">
+
+    <header id="header">
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="#home">Home</a></li> 
+			<li class="scroll"><a href="#features">Content</a></li>
+                        <li class="scroll"><a href="#business-stats">Audience</a></li>
+                        <li class="scroll"><a href="#services">Materials</a></li>
+                        <li class="scroll"><a href="#about">References</a></li> 
+                        <li class="scroll"><a href="#our-team">Presenters</a></li>
+                        <li class="scroll"><a href="#contact-us">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+    <section id="hero-banner">
+             <div class="banner-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                 
+                                    <h2>Causal Inference with Latent Variable: Recent Advances and Future Prospectives</h2>
+                                    <p>  <br/> <b>Time</b>: 2:00 PM – 5:00 PM (DST), Sunday, August 25. <br/> <b>Location</b>: Centre de Convencions Internacional de Barcelona, Barcelona, Spain.</p>
+                                    <a class="btn btn-primary btn-lg" href="https://arxiv.org/pdf/2406.13966">Slides</a> <a class="btn btn-primary btn-lg" href="#">Slides</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+     
+
+     <section id="features">
+	 <div class="container">
+	   <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Abstract</h2>
+                <p class="wow fadeInDown">Causality lays the foundation for the trajectory of our world. Causal inference (CI), which aims to infer intrinsic causal relations among variables of interest, has emerged as a crucial research topic. Nevertheless, the lack of observation of important variables (e.g., confounders, mediators, exogenous variables, etc.) severely compromises the reliability of CI methods. The issue may arise from the inherent difficulty in measuring the variables. Additionally, in observational studies where variables are passively recorded, certain covariates might be inadvertently omitted by the experimenter. Depending on the type of unobserved variables and the specific CI task, various consequences can be incurred if these latent variables are carelessly handled, such as biased estimation of causal effects, incomplete understanding of causal mechanisms, lack of individual-level causal consideration, etc. In this survey, we provide a comprehensive review of recent developments in CI with latent variables. We start by discussing traditional CI techniques when variables of interest are assumed to be fully observed. Afterward, under the taxonomy of circumvention and inference-based methods, we provide an in-depth discussion of various CI strategies to handle latent variables, covering the tasks of causal effect estimation, mediation analysis, counterfactual reasoning, and causal discovery. Furthermore, we generalize the discussion to graph data where interference among units may exist. Finally, we offer fresh aspects for further advancement of CI with latent variables, especially new opportunities in the era of large language models (LLMs).</p>
+            </div>
+	 <div class="row FeatLayout">
+
+
+<div class="wow fadeInDown">
+<h2>Part 1: Background and Causal Inference Basics (25 mins)</h2>
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Overview of causal machine learning.</li>
+<li><i class="fa fa-angle-double-right"></i>Overview of latent variables in causal inference.</li>
+<li><i class="fa fa-angle-double-right"></i>Rubin’s causal model (RCM) v.s. Pearl's structural causal model (SCM).</li>
+<li><i class="fa fa-angle-double-right"></i>Four main causal inference tasks.</li>
+</ul>
+</div>
+
+
+<div class="wow fadeInDown">
+<h2>Part 2: Latent Confounding Analysis (45 mins)</h2>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p> -->
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Overview of traditional methods.</li>
+<li><i class="fa fa-angle-double-right"></i>Circumvention-based methods.</li>
+<li><i class="fa fa-angle-double-right"></i>Inference-based methods.</li>
+</ul>
+</div>
+
+
+<div class="wow fadeInDown">
+<h2>Part 3: Latent Causal Mediation Analysis (20 mins)</h2>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p> -->
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Overview of traditional methods.</li>
+<li><i class="fa fa-angle-double-right"></i>Latent confounding analysis for CMA.</li>
+<li><i class="fa fa-angle-double-right"></i>CMA with latent mediators.</li>
+</ul>
+</div>
+
+
+<div class="wow fadeInDown">
+<h2>Part 4: Latent Counterfactual Analysis (20 mins)</h2>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p> -->
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Overview of traditional methods.</li>
+<li><i class="fa fa-angle-double-right"></i>Circumvention-based methods.</li>
+<li><i class="fa fa-angle-double-right"></i>Inference-based methods.</li>
+</ul>
+</div>
+
+
+
+<div class="wow fadeInDown">
+<h2>Part 5: Causal Discovery with Latent Variables (20 mins)</h2>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p> -->
+<ul class="listarrow">
+    <li><i class="fa fa-angle-double-right"></i>Overview of traditional methods.</li>
+    <li><i class="fa fa-angle-double-right"></i>Circumvention-based methods.</li>
+    <li><i class="fa fa-angle-double-right"></i>Inference-based methods.</li>
+</div>
+
+
+<div class="wow fadeInDown">
+<h2>Part 6: Generalization, Summarization, and Future Directions (25 mins)</h2>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p> -->
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Generalization to graph data</li>
+<li><i class="fa fa-angle-double-right"></i>Summary of current challenges and future directions.</li>
+<li><i class="fa fa-angle-double-right"></i>Opportinity in the LLM era.</li>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="business-stats">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Target Audience & Prerequisites</h2>
+            <p class="wow fadeInDown">The intended audiences include researchers, practitioners, and students working in the domain of causal inference with machine learning.</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="our-team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Presenters</h2>
+            </div>
+			
+			 	
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/yushun.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Yaochen Zhu</h3>
+                            <span>Yaochen Zhu is a rising third-year Ph.D. student at university of virginia. Previously, He was an machine learning research intern at Netflix and LinkedIn. His research interests mainly lies in causal inference, large language models, as well as their application in various data mining tasks.</span> 
+                        </div> 
+                        <ul class="social-icons">
+                            <li><a href="https://www.ychzhu.com/"><i class="fa fa-user"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                            <li><a href="https://scholar.google.com/citations?user=mNKYtHEAAAAJ&hl=en&oi=sra"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="www.linkedin.com/in/yaochenzhu"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/oyku.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Yinhan He</h3>
+                            <span>Oyku Deniz Kose received her B.S. and M.S. from Bogazici University, Istanbul, Turkey, in 2017 and 2020, respectively. During her master’s studies, her research centered on speech and multimodal signal processing. Currently, she is a Ph.D. student in the Department of Electrical Engineering and Computer Science, University of California Irvine, Irvine, CA, USA. Her current research mainly focuses on trustworthy machine learning with a specific interest in graph-based learning. She was the recipient of the Samueli Endowed Fellowship at UC Irvine in 2020, and a research intern at Google Responsible AI group in the summer of 2023.</span> 
+                        </div> 
+                        <ul class="social-icons">
+                            <li><a href="https://engineering.uci.edu/file/2021-sf-kosepng"><i class="fa fa-user"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                            <li><a href="https://scholar.google.com.tr/citations?user=mIURm58AAAAJ&hl=en"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/oyku-deniz-kose-0b168b101/"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/yanning.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Jing Ma</h3>
+                            <span>Yanning Shen is an assistant professor with the EECS department at the University of California, Irvine. Her research interests span the areas of machine learning, network science, and data science. She received her Ph.D. degree from the University of Minnesota in 2019. She was selected as a Rising Star in EECS by Stanford University in 2017. She received the Microsoft Academic Grant Award for AI Research in 2021, the Google Re- search Scholar Award in 2022, and the Hellman Fellowship in 2022. She is also an honoree of the MIT Technology Review 35 Innovators under 35 Asia Pacific in 2022.</span> 
+                        </div> 
+                        <ul class="social-icons">
+                            <li><a href="https://sites.google.com/uci.edu/yanning-shen/home"><i class="fa fa-user"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                            <li><a href="https://scholar.google.com/citations?user=MfzntAIAAAAJ&hl=en"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/yanning-shen-a4b27061/"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/team/jundong.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Jundong Li</h3>
+                            <span>Jundong Li is an Assistant Professor in the Department of Electrical and Computer Engineering, with a joint appointment in the Department of Computer Science, and the School of Data Science. He received Ph.D. degree in Computer Science at Arizona State University in 2019. His research interests are in data mining, machine learning, and causal inference. He has published over 100 articles in high-impact venues and won prestigious awards including NSF CAREER Award, JP Morgan Chase Faculty Research Award, Cisco Faculty Research Award, and being selected for the AAAI 2021 New Faculty Highlights program.</span> 
+                        </div> 
+                        <ul class="social-icons">
+                            <li><a href="http://www.ece.virginia.edu/~jl6qk/"><i class="fa fa-user"></i></a></li>
+                            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                            <li><a href="https://scholar.google.ca/citations?user=uY6ek7sAAAAJ&hl=en"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/jundong-li-09151b5b/"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title wow fadeInDown">Contact</h2>
+                <p class="wow fadeInDown">For any questions regarding this tutorial, please reach out to yd6eb@virginia.edu.</p>
+                <p class="wow fadeInDown">Powered by Yushun Dong in 2023.</p>
+            </div>
+        </div>
+    </section>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=Pept7o3XjrkXr_VkxikWJgfQ91MP0hvRds4j5myrycU&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+	
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom-scripts.js"></script>
+</body>
+</html>
