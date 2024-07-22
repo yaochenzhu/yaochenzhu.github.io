@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Yaochen Zhu, Ph.D."
-  avatar           : "Profile-2.JPG"
+  avatar           : "yaochen_circle.png"
   bio              : "Ph.D. student @ UVA | Machine Learing Research Intern @ Netflix"
   location         : "Charlottesville, VA"
   employer         :
@@ -175,16 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
