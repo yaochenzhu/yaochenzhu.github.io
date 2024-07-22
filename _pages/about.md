@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-I am a second-year Ph.D. student at UVA, advised by Prof. [Jundong Li](https://jundongli.github.io/). Previously, I earned my master's degree at [IIP Lab](http://iip.whu.edu.cn/), Wuhan University, advised by <a href="" [Prof. Zhenzhong Chen](http://iip.whu.edu.cn/~zzchen/index.html). Currently, I work on causal inference, large language models, probabilistic graphical models, and their combination with DNNs to address key problems in data mining, with the emphasis on debiasing, reducing uncertainty, promoting fairness, and eliminating the influence of unobserved confounders.
+I am a second-year Ph.D. student at UVA, advised by Prof. [Jundong Li](https://jundongli.github.io/). Previously, I earned my master's degree at [IIP Lab](http://iip.whu.edu.cn/), Wuhan University, advised by [Prof. Zhenzhong Chen](http://iip.whu.edu.cn/~zzchen/index.html). Currently, I work on causal inference, large language models, probabilistic graphical models, and their combination with DNNs to address key problems in data mining, with the emphasis on debiasing, reducing uncertainty, promoting fairness, and eliminating the influence of unobserved confounders.
 
 News
 ------
