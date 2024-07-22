@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yushun Dong's Homepage"
+title                    : "Yaochen Zhu's Homepage"
 title_separator          : "-"
-name                     : &name "Yushun Dong"
-description              : &description "Assistant Professor at Florida State University"
-url                      : https://yushundong.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yaochen Zhu"
+description              : &description "Ph.D. student at University of Virginia"
+url                      : https://yaochenzhu.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yushun Dong, Ph.D."
+  name             : "Yaochen Zhu, Ph.D."
   avatar           : "Profile-2.JPG"
-  bio              : "Assistant Professor @FSU"
-  location         : "Tallahassee, FL"
+  bio              : "Ph.D. student @ UVA | Machine Learing Research Intern @ Netflix"
+  location         : "Charlottesville, VA"
   employer         :
   pubmed           :
-  googlescholar    : https://scholar.google.com/citations?hl=en&user=_QUhuOMAAAAJ
-  email            : yd6eb@virginia.edu
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : https://scholar.google.com/citations?user=mNKYtHEAAAAJ&hl=en&oi=sra
+  email            : uqp4qh@virginia.edu
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : yushundong
+  github           : yaochenzhu
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         : yushun-dong-2989261a5?trk=people-guest_people_search-card
+  linkedin         : yaochenzhu
   orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : Yushun_Dong
+  twitter          :
   vine             :
   weibo            :
   xing             :
